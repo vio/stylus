@@ -1,0 +1,17 @@
+foo()
+  bar()
+
+bar()
+  test: called-from
+
+.test1
+  foo()
+
+.test2
+  bar()
+
+.test3
+  foo: whatever
+
+.test4
+  f{'oo'}()
